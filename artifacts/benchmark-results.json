@@ -1,0 +1,25 @@
+{
+  "benchmarkSuite" : "Enterprise Commerce Distributed Concurrency & Idempotency Benchmark",
+  "timestamp" : "2026-10-24T19:08:29.701905Z",
+  "concurrencyLevel" : 6,
+  "skuPartitions" : 5,
+  "totalRequestsEvaluated" : 60,
+  "successfulOrders" : 60,
+  "totalDurationSeconds" : 0.142,
+  "throughputRequestsPerSec" : 423.69,
+  "orderPlacementLatencyWithPessimisticLock" : {
+    "p50Ms" : 7.51,
+    "p95Ms" : 68.56,
+    "p99Ms" : 73.08
+  },
+  "idempotencyCachePerformance" : {
+    "p50CacheReplayLatencyMs" : 0.68,
+    "p95CacheReplayLatencyMs" : 1.23,
+    "guarantee" : "Zero duplicate inventory deduction across identical keys"
+  },
+  "functionalStreamAnalyticsLatency" : {
+    "p50PipelineLatencyMicros" : 4127.8,
+    "p95PipelineLatencyMicros" : 15683.9,
+    "pipelineDesign" : "Functional Java 21 Streams with groupingBy and Map-Reduce"
+  }
+}

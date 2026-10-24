@@ -1,0 +1,104 @@
+{
+  "project": "event-driven-commerce-intelligence-platform",
+  "targetRole": "Infosys Specialist Programmer (Trainee)",
+  "framework": "JUnit 5 + Spring Boot Test 3.3.5",
+  "totalTests": 15,
+  "passed": 15,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passRatePercent": 100.0,
+  "totalDurationSecs": 7.508,
+  "testCases": [
+    {
+      "suite": "com.infosys.commerce.AnalyticsPipelineTest",
+      "test": "testAnalyticsComputation",
+      "durationSecs": 0.016,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.AuthControllerTest",
+      "test": "testInvalidPassword",
+      "durationSecs": 0.17,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.AuthControllerTest",
+      "test": "testSuccessfulLogin",
+      "durationSecs": 0.152,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.AuthControllerTest",
+      "test": "testAvailableAccounts",
+      "durationSecs": 0.008,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.BenchmarkRunnerTest",
+      "test": "runEmpiricalBenchmarks",
+      "durationSecs": 0.789,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.IdempotencyTest",
+      "test": "testIdempotentOrderSubmission",
+      "durationSecs": 0.018,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.InventoryConcurrencyTest",
+      "test": "testHighConcurrencyPessimisticReservation",
+      "durationSecs": 0.018,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.OrderLifecycleIntegrationTest",
+      "test": "testInventoryRestocking",
+      "durationSecs": 0.006,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.OrderLifecycleIntegrationTest",
+      "test": "testCustomerCancellationAndInventoryRestoration",
+      "durationSecs": 0.016,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.OutboxAndConsumerTest",
+      "test": "testOutboxAndConsumerFulfillment",
+      "durationSecs": 0.016,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.OutboxAndConsumerTest",
+      "test": "testPoisonPillRiskFailure",
+      "durationSecs": 0.013,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.ProductAndSystemControllerTest",
+      "test": "testGetCategories",
+      "durationSecs": 0.007,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.ProductAndSystemControllerTest",
+      "test": "testSystemStatus",
+      "durationSecs": 0.006,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.ProductAndSystemControllerTest",
+      "test": "testAnalyticsSummary",
+      "durationSecs": 0.013,
+      "status": "PASSED"
+    },
+    {
+      "suite": "com.infosys.commerce.ProductAndSystemControllerTest",
+      "test": "testProductCatalogSearch",
+      "durationSecs": 0.028,
+      "status": "PASSED"
+    }
+  ]
+}
