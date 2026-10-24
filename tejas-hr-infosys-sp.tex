@@ -1,0 +1,114 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0pt}
+\setlength{\parindent}{0pt}
+\hyphenpenalty=10000\exhyphenpenalty=10000\emergencystretch=1em
+\titleformat{\section}{\scshape\raggedright\normalsize\bfseries}{}{0em}{}[\color{black}\titlerule]
+\titlespacing*{\section}{0pt}{4.8pt}{2.0pt}
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+\newcommand{\resumeSubheading}[4]{\item
+  \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}}
+\newcommand{\resumeProjectHeading}[3]{\item
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{8pt}}r@{}}
+    \textbf{#1} & \href{#3}{\underline{GitHub}} \\
+  \end{tabularx}
+  {\small\textit{#2}\par}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in,label={},itemsep=2.0pt,topsep=1pt,parsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in,label=\textbullet,itemsep=1.2pt,topsep=1.0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\renewcommand{\small}{\fontsize{10.2}{12.6}\selectfont}
+
+\begin{document}
+\begin{center}
+  \textbf{\Huge\scshape Tejas HR} \\[2pt]
+  \fontsize{9.6}{12}\selectfont
+  \textbf{Location:} \underline{Bengaluru, India} ~\textbar~ \textbf{Phone:} \href{tel:+917483094410}{\underline{+91 7483094410}} ~\textbar~ \textbf{Email:} \href{mailto:tejashrise2026@gmail.com}{\underline{tejashrise2026@gmail.com}} \\[2pt]
+  \textbf{LinkedIn:} \href{https://www.linkedin.com/in/tejashr0716/}{\underline{linkedin.com/in/tejashr0716}} ~\textbar~ \textbf{GitHub:} \href{https://github.com/tejashr0716}{\underline{github.com/tejashr0716}} ~\textbar~ \textbf{LeetCode:} \href{https://leetcode.com/u/tejashr0716/}{\underline{leetcode.com/u/tejashr0716}}
+\end{center}
+\vspace{-7pt}
+
+\section{Summary}
+{\small 2026 graduate skilled in Java, Spring Boot, microservices architecture, event-driven systems, React, REST APIs, SQL/NoSQL databases, and cloud-native Docker containerization. Experienced in navigating existing codebases, taking end-to-end ownership of deliverables, resolving software defects, contributing to design discussions, and collaborating in agile teams. Eager to contribute as Specialist Programmer at Infosys.\par}
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in,label={},topsep=1pt,itemsep=0pt,parsep=0pt]
+  \item {\small
+\textbf{Languages:} Java (Java 21/17), Python, SQL, C++, JavaScript (ES6+), Scala Fundamentals, HTML5, CSS3\\[0pt]
+\textbf{Frameworks \& Back-End:} Spring Boot 3.3, Spring Data JPA, Spring Security 6, Hibernate, RESTful APIs, Node.js\\[0pt]
+\textbf{Front-End \& Full Stack:} React 18, TypeScript, Vite, Tailwind CSS, Component Architecture, Responsive Web UI\\[0pt]
+\textbf{Distributed Systems \& Messaging:} Event-Driven Architecture, Transactional Outbox, Kafka Concepts, Redis, RabbitMQ\\[0pt]
+\textbf{Databases \& DevOps:} PostgreSQL, MySQL, H2 In-Memory, Docker, CI/CD (GitLab, GitHub Actions), Linux, Git\\[0pt]
+\textbf{Testing \& Quality Gates:} JUnit 5, MockMvc, pytest, Concurrency Profiling, Defensive Error Handling, Code Reviews}
+\end{itemize}
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading{Full Stack Developer Intern}{Feb 2026 -- Aug 2026}{KodNest}{Bengaluru, India}
+  \resumeItemListStart
+    \resumeItem{Took engineering ownership of \textbf{3 modules and 8 REST endpoints} in existing codebases, resolving software defects, applying PEP 8 standards, and accelerating delivery with AI tools (GitHub Copilot / Cursor) in Agile sprint cycles.}
+    \resumeItem{Reduced median reporting API latency by \textbf{37.8\% (69.09 ms to 42.97 ms)} on an \textbf{80,001-ticket MySQL dataset} by profiling execution bottlenecks, authoring technical design notes, and maintaining GitLab CI/CD pipelines.}
+  \resumeItemListEnd
+  \resumeSubheading{Web Developer Intern}{Aug 2025 -- Jan 2026}{SkillXAcademy}{Bengaluru, India}
+  \resumeItemListStart
+    \resumeItem{Enhanced and adapted existing software components across \textbf{6 responsive interfaces and 5 REST endpoints}, standardizing error/info logging, participating in peer code reviews, and validating output.}
+    \resumeItem{Reduced median warm catalog revisit latency by \textbf{21.8\% (99.77 ms to 78.05 ms)} across 30 benchmark pairs by engineering response caching, eliminating redundant network calls, and enforcing regression tests with pytest.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{Event-Driven Commerce Intelligence Platform}{Java 21, Spring Boot 3.3, React 18, TypeScript, H2/PostgreSQL, Docker, JUnit 5}{https://github.com/tejashr0716/event-driven-commerce-intelligence-platform}
+  \resumeItemListStart
+    \resumeItem{Engineered row-level pessimistic locking (\texttt{SELECT FOR UPDATE}) guaranteeing zero overselling across 20 concurrent threads at \textbf{453.01 req/sec peak throughput} and \textbf{6.70 ms P50 latency (67.02 ms P95)}.}
+    \resumeItem{Implemented Transactional Outbox dual-write safety and client UUID \texttt{Idempotency-Key} caching with \textbf{0.69 ms P50 replay latency}, dead-letter queue (DLQ) routing, and a \textbf{15-test passing JUnit 5 suite (100\% pass rate)}.}
+  \resumeItemListEnd
+  \resumeProjectHeading{ChandyStore --- Distributed Consensus Key-Value Store \& Raft Lock Manager}{Python, FastAPI, C++17, Redis, RabbitMQ, PostgreSQL, pytest}{https://github.com/tejashr0716/Distributed-Consensus-KeyValue-Store-Raft}
+  \resumeItemListStart
+    \resumeItem{Designed Raft consensus engine with Martin Kleppmann monotonic fencing tokens delivering \textbf{287.8M locks/sec} and CRC32 log verifiers with \textbf{1.10M ops/sec} throughput with zero split-brain risk.}
+    \resumeItem{Enforced distributed mutual exclusion and linearizable state machine replication covered by a \textbf{100\% passing pytest regression suite}.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading{The Oxford College of Engineering}{2022 -- 2026}{Bachelor of Engineering in Information Science and Engineering; CGPA: 8.01 / 10.0}{Bengaluru, India}
+\resumeSubHeadingListEnd
+
+\section{Certifications \& Technical Credentials}
+\begin{itemize}[leftmargin=0.15in,label={},topsep=1pt,itemsep=1pt,parsep=0pt]
+  \item {\small \textbf{IBM DevOps and Software Engineering Professional Certificate} --- IBM}
+  \item {\small \textbf{Microsoft Back-End Developer Professional Certificate} --- Microsoft, Coursera}
+  \item {\small \textbf{Mastering REST APIs with FastAPI} --- Packt, Coursera}
+  \item {\small \textbf{Introduction to Data Analysis Using Python} --- Google, Coursera}
+\end{itemize}
+
+\end{document}
